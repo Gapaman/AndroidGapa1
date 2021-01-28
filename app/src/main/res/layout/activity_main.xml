@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:text="Привет!" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст "
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="выбор 1"
+        android:textSize="20dp"
+        android:checked="true"
+        android:textColor="@android:color/holo_orange_dark"
+        />
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@android:color/holo_green_dark"
+            android:text="выбор 2"
+            />
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:text="выбор 3"
+            android:textColor="@android:color/holo_purple"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:text="Будильник"
+        android:showText="true"
+        android:drawableLeft="@drawable/alarm"
+        android:textOn="Вкл"
+        android:textOff="Выкл"
+         />
+   <ToggleButton
+       android:id="@+id/toggleButton"
+       android:layout_gravity="center"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textOff="Off"
+       android:textOn="On"
+       android:checked="true"
+/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отправить "
+        android:textSize="30dp"
+        android:backgroundTint="@android:color/background_dark"
+        android:textStyle="bold"
+
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
